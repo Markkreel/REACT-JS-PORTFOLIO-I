@@ -1,0 +1,77 @@
+/* styles.css */
+
+#navbar_id {
+  position: fixed;
+  top: 2%;
+  left: 2.5%;
+  right: 2.5%;
+  height: 86px;
+  width: 95%;
+  background-color: #fafafa; /* Change this to your desired background color */
+  border-radius: 60px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.navbar-profile-container {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.navbar-profile {
+  width: 50px;
+  margin-top: 5px;
+  height: 50px;
+  background-color: #ccc;
+  border-radius: 50%;
+  background-color: #ccc; /* Set background color or add background image */
+  border-radius: 50%; /* Make it circular */
+  /* Other styles for the profile picture */
+  background-image: url("src/assets/img/profile-img.jpg");
+  background-size: cover;
+}
+
+.navbar-info {
+  position: absolute; /* Position text absolute within the container */
+  top: 50%; /* Align text vertically in the middle */
+  left: 90px; /* Adjust to create space between profile picture and text */
+  transform: translateY(-50%); /* Center text vertically */
+  /* Other styles for the profile information */
+}
+
+.navbar-info h1 {
+  font-size: 21px;
+}
+
+.navbar-menu-container {
+  position: absolute;
+  top: 50%;
+  right: 20px; /* Adjust as needed */
+  transform: translateY(-50%);
+  /* Other styles for the navbar menu container */
+}
+
+.navbar-menu-container ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  color: black;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+.navbar-menu-container ul li {
+  margin-right: 72px;
+}
+
+.name {
+  margin-left: 10px; /* Remove default margin */
+}
